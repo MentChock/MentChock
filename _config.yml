@@ -13,4 +13,6 @@
 </url>
 
 
+gems:
+      - jekyll-sitemap
 </urlset>

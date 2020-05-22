@@ -6,10 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
   <link href="http://allfont.es/allfont.css?fonts=futura-normal" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Baloo&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap" rel="stylesheet">
   <script src="js/smooth-scroll.min.js"></script>
   <script>
     smoothScroll.init({
@@ -17,7 +19,7 @@
       selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
       speed: 1850, // Integer. How fast to complete the scroll in milliseconds
       easing: 'easeInOutCubic', // Easing pattern to use
-      offset: 100, // Integer. How far to offset the scrolling anchor location in pixels
+      offset: 130, // Integer. How far to offset the scrolling anchor location in pixels
       callback: function (anchor, toggle) { } // Function to run after scrolling
     });
   </script>
@@ -56,14 +58,13 @@
 
     .navbar-color {
       background-color: rgba(255, 255, 255);
-      box-shadow: 0px 2px 0px #000;
-
+      box-shadow: -5px 9px 13px -14px rgb(231, 231, 231);
     }
 
     .fuente-navbar {
-      font-family: 'Futura-Normal', arial;
+      font-family: 'Padauk', sans-serif;
       font-weight: bold;
-      font-size: 20px;
+      font-size: 17px;
     }
 
     .panding_navbar {
@@ -133,8 +134,7 @@
     .servicios {
 
       text-align: center;
-      font-weight: bold;
-
+      font-family: 'Playfair Display', serif;
       color: #4b4c50;
     }
 
@@ -147,8 +147,8 @@
       margin-right: auto;
       text-align: center;
       padding-top: .6rem;
-      background-color: aliceblue;
-      border: 1.5px solid rgb(12, 12, 12);
+      background-color: rgba(240, 248, 255, 0.637);
+      border: 1.5px solid rgba(12, 12, 12, 0.623);
       padding: 10px;
       border-radius: 0px;
     }
@@ -157,144 +157,162 @@
       font-size: 40px;
     }
 
-.modal-header {
+    .modal-header {
       border-bottom-color: #eeeeee;
-      background-color:none;
+      background-color: none;
     }
 
     .modal-body {
-      border-bottom-color:rgba(255, 255, 255, 0);
-      background-color:rgba(255, 255, 255, 0);
+      border-bottom-color: rgba(255, 255, 255, 0);
+      background-color: rgba(255, 255, 255, 0);
     }
 
-    .keke-8{
-     width:  500px;
+    .keke-8 {
+      width: 500px;
     }
 
 
     /*footer*/
     .nav-w3-l ul li a {
-    color: #a29595;
-    font-size: 14px;
-    letter-spacing: 1px;
-}
+      color: #a29595;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
 
-.w3l-footer.three ul li i {
-    float: left;
-    font-size: 18px;
-    color: #fff;
-    line-height: 1.8;
-}
+    .w3l-footer.three ul li i {
+      float: left;
+      font-size: 18px;
+      color: #fff;
+      line-height: 1.8;
+    }
 
-.w3l-footer.three ul li p,
-.w3l-footer.three ul li a {
-    color: #a29595;
-    font-size: 17px;
-    letter-spacing: 1px;
-    float: left;
-    margin-left: 20px;
-}
+    .w3l-footer.three ul li p,
+    .w3l-footer.three ul li a {
+      color: #a29595;
+      font-size: 17px;
+      letter-spacing: 1px;
+      float: left;
+      margin-left: 20px;
+    }
 
-.w3l-footer.three ul li span {
-    display: block;
-}
-/* copyright */
+    .w3l-footer.three ul li span {
+      display: block;
+    }
 
-.copy-right-grids {
-    background: #211c18;
-}
+    /* copyright */
 
-p.footer-gd.text-center a {
-    color: #e60101;
-}
+    .copy-right-grids {
+      background: #000;
+    }
 
-p.footer-gd.text-center a:hover {
-    color: #000;
-}
+    p.footer-gd.text-center a {
+      color: #e60101;
+    }
 
-.copy-right ul li a:hover,
-.w3l-footer.three ul li a:hover,
-.nav-w3-l ul li a:hover {
-    color: #fff;
-}
+    p.footer-gd.text-center a:hover {
+      color: #000;
+    }
 
-/* //copyright */
+    .copy-right ul li a:hover,
+    .w3l-footer.three ul li a:hover,
+    .nav-w3-l ul li a:hover {
+      color: #fff;
+    }
+
+    /* //copyright */
 
 
-/* footer */
+    /* footer */
 
-.w3ls-footer-grids {
-    background: #352e29;
-}
+    .w3ls-footer-grids {
+      background: #352e29;
+    }
 
-.w3l-footer h3,
-.w3l-footer h2 {
-    font-size: 26px;
-    color: #fff;
-}
+    .w3l-footer h3,
+    .w3l-footer h2 {
+      font-size: 26px;
+      color: #fff;
+    }
 
-.w3l-footer.one p {
-    color: #a29595;
-    font-size: 17px;
-}
+    .w3l-footer.one p {
+      color: #a29595;
+      font-size: 17px;
+    }
 
-/* social icons */
+    /* social icons */
 
-.w3l-footer.two ul li i {
-    font-size: 13px;
-    margin-right: 15px;
-    width: 30px;
-    text-align: center;
-    color: #fff;
-    background: #6E65F1;
-    padding: 9px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -o-border-radius: 50%;
-    -ms-border-radius: 50%;
-    width: 30px;
-    height: 30px;
-}
+    .w3l-footer.two ul li i {
+      font-size: 13px;
+      margin-right: 15px;
+      width: 30px;
+      text-align: center;
+      color: #fff;
+      background: #6E65F1;
+      padding: 9px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -o-border-radius: 50%;
+      -ms-border-radius: 50%;
+      width: 30px;
+      height: 30px;
+    }
 
-.w3l-footer.two ul li a {
-    color: #a29595;
-    font-size: 14px;
-}
+    .w3l-footer.two ul li a {
+      color: #a29595;
+      font-size: 14px;
+    }
 
-.w3l-footer.two ul li i.fa-facebook-f {
-    background: #5d82d2;
-}
+    .w3l-footer.two ul li i.fa-facebook-f {
+      background: #5d82d2;
+    }
 
-.w3l-footer.two ul li i.fa-twitter {
-    background: #3bbef5;
-}
+    .w3l-footer.two ul li i.fa-twitter {
+      background: #3bbef5;
+    }
 
-.w3l-footer.two ul li i.fa-google-plus-g {
-    background: #ea5d4b;
-}
+    .w3l-footer.two ul li i.fa-google-plus-g {
+      background: #ea5d4b;
+    }
 
-.w3l-footer.two ul li i.fa-dribbble {
-    background: #f7659b;
-}
+    .w3l-footer.two ul li i.fa-dribbble {
+      background: #f7659b;
+    }
 
-.w3l-footer.two ul li:nth-child(1) a:hover {
-    color: #5D82D2;
-}
+    .w3l-footer.two ul li:nth-child(1) a:hover {
+      color: #5D82D2;
+    }
 
-.w3l-footer.two ul li:nth-child(2) a:hover {
-    color: #3bbef5;
-}
+    .w3l-footer.two ul li:nth-child(2) a:hover {
+      color: #3bbef5;
+    }
 
-.w3l-footer.two ul li:nth-child(3) a:hover {
-    color: #ea5d4b;
-}
+    .w3l-footer.two ul li:nth-child(3) a:hover {
+      color: #ea5d4b;
+    }
 
-.w3l-footer.two ul li:nth-child(4) a:hover {
-    color: #f7659b;
-}
+    .w3l-footer.two ul li:nth-child(4) a:hover {
+      color: #f7659b;
+    }
 
-/* //social icons */
+    .footer_cuerpo {
+      font-family: 'Squada One', cursive;
+    }
+
+    .footer_pie {
+      background: rgb(33, 28, 24);
+      font-family: 'Squada One', cursive;
+      font-size: large;
+    }
+
+    h3.footer_titulo {
+
+      color: #ffffff;
+
+    }
+
+
+    /* //social icons */
   </style>
 </head>
 
@@ -305,28 +323,31 @@ p.footer-gd.text-center a:hover {
 
   <div class="container fixed-top navbar-light navbar-color panding_navbar">
 
-    <nav class=" navbar navbar-expand-lg panding_navbar">
-      <a class="navbar-brand text-titulo  d-md-block d-lg-none" href="#">MentChock</a>
+    <nav class=" navbar navbar-expand-lg panding_navbar py-3">
+      <a class="navbar-brand text-titulo  d-md-block d-lg-none" href="#">MentChoct</a>
       <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
 
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <img src="img/w-2.png" class="img-fluid mr-auto d-none d-lg-block " width="60px" alt="" class="">
+        <img src="img/w-2.png" class="img-fluid mr-auto d-none d-lg-block " width="80px" alt="" class="">
 
         <ul class="navbar-nav ml-auto fuente-navbar">
           <li class="nav-item active">
-            <a data-scroll class="nav-link text-dark" href="#sec-1">Inicio <span class="sr-only">(current)</span></a>
+            <a data-scroll class="nav-link text-dark" href="#sec-1">inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a data-scroll class="nav-link text-dark" href="#sec-2">Nosotros</a>
+            <a data-scroll class="nav-link text-dark" href="#sec-2">nosotros</a>
           </li>
           <li class="nav-item ">
-            <a data-scroll class="nav-link text-dark" href="#sec-3">Servicios <span class="sr-only">(current)</span></a>
+            <a data-scroll class="nav-link text-dark" href="#sec-3">servicios <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a data-scroll class="nav-link text-dark" href="#sec-4">Galeria</a>
+            <a data-scroll class="nav-link text-dark" href="#sec-4">galeria</a>
+          </li>
+          <li class="nav-item">
+            <a data-scroll class="nav-link text-dark" href="#sec-5">contacto</a>
           </li>
         </ul>
       </div>
@@ -377,15 +398,13 @@ p.footer-gd.text-center a:hover {
   <br />
   <div class="container">
     <div class="row d-flex justify-content-center" id="sec-3">
-      <div class=" fuente-intro">
-        <h1 class="servicios ">Nuestros Servicios</h1>
-      </div>
+
       <div class="row mb-4 ">
         <div class="col-md-4  mt-3 mb-3 ">
           <div class="card ">
             <img src="img/2.jpg" class="card-img-top img-fluid">
             <div class="card-block ">
-              <a href="#" class="btn btn-dark btn-block cc">Productos</a>
+              <a href="#" class="btn btn-dark btn-block cc" style="font-family: 'Squada One', cursive;">Productos</a>
             </div>
           </div>
         </div>
@@ -393,7 +412,8 @@ p.footer-gd.text-center a:hover {
           <div class="card">
             <img src="img/chef.jpg" class="card-img-top img-fluid">
             <div class="card-block ">
-              <a href="#" class="btn btn btn btn-dark btn-block cc">Quien soy</a>
+              <a href="#" class="btn btn btn btn-dark btn-block cc" style="font-family: 'Squada One', cursive;">Quien
+                soy</a>
             </div>
           </div>
         </div>
@@ -401,16 +421,32 @@ p.footer-gd.text-center a:hover {
           <div class="card">
             <img src="img/3.jpg" class="card-img-top img-fluid">
             <div class="card-block ">
-              <a href="#" class="btn btn btn btn-dark btn-block cc">Pedidos en Linea</a>
+              <a href="#" class="btn btn btn btn-dark btn-block cc" style="font-family: 'Squada One', cursive;">Pedidos
+                en Linea</a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <div class="container mb-4 ">
     <div class="row d-flex justify-content-center" id="sec-4">
-      <div class="fuente-intro ">
+      <div class="fuente-intro  mb-4">
         <h1 class="servicios ">Galeria</h1>
       </div>
       <div class="card-columns">
@@ -526,158 +562,349 @@ p.footer-gd.text-center a:hover {
             <p class="card-text"><small class="text-muted">04/05/2020</small></p>
           </div>
         </div>
+        <!--rollos de tarta-->
+        <div class="card">
+          <a href="#keke-8" data-toggle="modal">
+            <img src="img/keke-9.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body ">
+            <h5 class="card-title"> Rollos de canela</h5>
+            <p class="card-text  mb-0">Preparamos los mejores turrones con ingredientes 100% naturales para ls padalares
+              más exigentes</p>
+            <p class="card-text"><small class="text-muted">04/05/2020</small></p>
+          </div>
+        </div>
+        <!--rollos de tarta-->
+        <div class="card">
+          <a href="#keke-8" data-toggle="modal">
+            <img src="img/keke-10.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body ">
+            <h5 class="card-title"> Rollos de canela</h5>
+            <p class="card-text  mb-0">Preparamos los mejores turrones con ingredientes 100% naturales para ls padalares
+              más exigentes</p>
+            <p class="card-text"><small class="text-muted">04/05/2020</small></p>
+          </div>
+        </div>
+        <!--rollos de tarta-->
+        <div class="card">
+          <a href="#keke-8" data-toggle="modal">
+            <img src="img/keke-11.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body ">
+            <h5 class="card-title"> Rollos de canela</h5>
+            <p class="card-text  mb-0">Preparamos los mejores turrones con ingredientes 100% naturales para ls padalares
+              más exigentes</p>
+            <p class="card-text"><small class="text-muted">04/05/2020</small></p>
+          </div>
+        </div>
+        <!--rollos de tarta-->
+        <div class="card">
+          <a href="#keke-8" data-toggle="modal">
+            <img src="img/keke-12.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body ">
+            <h5 class="card-title"> Rollos de canela</h5>
+            <p class="card-text  mb-0">Preparamos los mejores turrones con ingredientes 100% naturales para ls padalares
+              más exigentes</p>
+            <p class="card-text"><small class="text-muted">04/05/2020</small></p>
+          </div>
+        </div>
       </div>
+
+
+
+
+
+
     </div>
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <div id="keke-1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
-          <div class="modal-body">
-              <img src="img/keke-1.jpg" class="card-img-top img-fluid">
-          </div>
+        <div class="modal-body">
+          <img src="img/keke-1.jpg" class="card-img-top img-fluid">
+        </div>
       </div>
     </div>
-  </div> 
+  </div>
   <div id="turron" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
-          <div class="modal-body">
-              <img src="img/turron.jpg" class="card-img-top img-fluid">
-          </div>
+        <div class="modal-body">
+          <img src="img/turron.jpg" class="card-img-top img-fluid">
+        </div>
       </div>
     </div>
-  </div> 
+  </div>
   <div id="keke-2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
-          <div class="modal-body">
-              <img src="img/keke-2.jpg" class="card-img-top img-fluid">
-          </div>
+        <div class="modal-body">
+          <img src="img/keke-2.jpg" class="card-img-top img-fluid">
+        </div>
       </div>
     </div>
-  </div> 
+  </div>
   <div id="keke-3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
-          <div class="modal-body">
-              <img src="img/keke-3.jpg" class="card-img-top img-fluid">
-          </div>
+        <div class="modal-body">
+          <img src="img/keke-3.jpg" class="card-img-top img-fluid">
+        </div>
       </div>
     </div>
-  </div> 
+  </div>
   <div id="keke-4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
-          <div class="modal-body">
-              <img src="img/keke-4.jpg" class="card-img-top img-fluid">
-          </div>
+        <div class="modal-body">
+          <img src="img/keke-4.jpg" class="card-img-top img-fluid">
+        </div>
       </div>
     </div>
-  </div>  
+  </div>
   <div id="keke-5" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
-          <div class="modal-body">
-              <img src="img/keke-5.jpg" class="card-img-top img-fluid">
-          </div>
+        <div class="modal-body">
+          <img src="img/keke-5.jpg" class="card-img-top img-fluid">
+        </div>
       </div>
     </div>
-  </div>  
-   <div id="keke-6" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  </div>
+  <div id="keke-6" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
-          <div class="modal-body">
-              <img src="img/keke-6.jpg" class="card-img-top img-fluid">
-          </div>
+        <div class="modal-body">
+          <img src="img/keke-6.jpg" class="card-img-top img-fluid">
+        </div>
       </div>
     </div>
-  </div>  
-   <div id="keke-7" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  </div>
+  <div id="keke-7" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
-          <div class="modal-body">
-              <img src="img/keke-7.jpg" class="card-img-top img-fluid">
-          </div>
+        <div class="modal-body">
+          <img src="img/keke-7.jpg" class="card-img-top img-fluid">
+        </div>
       </div>
     </div>
-  </div>  
+  </div>
   <div id="keke-8" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
-          <div class="modal-body">
-              <img src="img/keke-8.jpg" class="card-img-top img-fluid">
-          </div>
+        <div class="modal-body">
+          <img src="img/keke-8.jpg" class="card-img-top img-fluid">
+        </div>
       </div>
     </div>
   </div>
 
-	<!-- footer -->
-	<footer>
-		<div class="w3ls-footer-grids py-5">
-			<div class="container py-lg-2">
-				<div class="row">
-					<div class="col-lg-3 col-sm-6 w3l-footer one">
-						<h2 class="index.html mb-3">Cappuccino Coffee</h2>
-						<p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-						<div class="clearfix"></div>
-					</div>
 
-					<div class="col-lg-3 col-sm-6 w3l-footer two mt-lg-0 mt-sm-5">
-						<h3 class="mb-3">Connect With</h3>
-						<ul class="list-unstyled">
-							<li class="mb-3">
-								<a class="fb" href="#">
-									<i class="fab fa-facebook-f"></i>Like us on Facebook</a>
-							</li>
-							<li class="mb-3">
-								<a class="fb1" href="#">
-									<i class="fab fa-twitter"></i>Follow us on Twitter</a>
-							</li>
-							<li class="mb-3">
-								<a class="fb2" href="#">
-									<i class="fab fa-google-plus-g"></i>Add us on Google Plus</a>
-							</li>
-							<li>
-								<a class="fb3" href="#">
-									<i class="fab fa-dribbble"></i>Follow us on Dribbble</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-lg-3 col-sm-6 w3l-footer three mt-lg-0 mt-4">
-						<h3 class="mb-3">Address</h3>
-						<ul class="list-unstyled">
-							<li>
-								<i class="fas fa-map-marker"></i>
-								<p>The company name
-									<span>Lorem ipsum dolor,</span>New York,Morris Park. </p>
-								<div class="clearfix"></div>
-							</li>
-							<li class="my-2">
-								<i class="fas fa-phone"></i>
-								<p>1234567890</p>
-								<div class="clearfix"></div>
-							</li>
-							<li>
-								<i class="fas fa-envelope"></i>
-								<a href="mailto:info@example.com">mail@example.com</a>
-								<div class="clearfix"></div>
-							</li>
-						</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- footer -->
+  <footer class="">
+    <div class="w3ls-footer-grids py-5 footer_cuerpo" id="sec-5">
+      <div class="container py-lg-2">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 w3l-footer one">
+            <h3 class="index.html mb-3 footer_titulo">MentChock
+              </h2>
+              <p style="font-size: 18px; color: #ffffff;">Ponemos a su disposicion ante cualquier duda los siguientes
+                teléfonos, celulares y redes solciales etc... </p>
+              <div class="clearfix"></div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 w3l-footer two mt-lg-0 mt-sm-5">
+            <h3 class="mb-3 footer_titulo">Siguenos en:</h3>
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <a class="fb" href="#" style="font-size: 18px; color: #ffffff;">
+                  <i class="fab fa-facebook-f" style="font-size: 25px; background: none; color: #ffffff;"></i>
+                  Facebook</a>
+              </li>
+              <li class="mb-3">
+                <a class="fb1" href="#" style="font-size: 18px; color: #ffffff;">
+                  <i class="fab fa-instagram" style="background: none; font-size: 25px; color: #ffffff;"></i>Instagram
+                </a>
+              </li>
+              <li class="mb-3">
+                <a class="fb2" href="#" style="font-size: 18px; color: #ffffff;">
+                  <i class="fab fa-whatsapp"
+                    style="background: none; font-size: 25px; color: #ffffff;"></i></i>WhatsApp</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6 w3l-footer three mt-lg-0 mt-4">
+            <h3 class="mb-3 footer_titulo">Hablanos</h3>
+            <ul class="list-unstyled">
+              <li>
+                <i class="fas fa-map-marker" style=" color: #ffffff;"></i>
+                <p style="color: #ffffff;">15818
+                  <span>Villa María del Triunfo</span> Tabla 2 Zonas. </p>
+                <div class="clearfix"></div>
+              </li>
+              <li class="my-2">
+                <i class="fas fa-phone" style=" color: #ffffff;"></i>
+                <p style="color: #ffffff;">1234567890</p>
+                <div class="clearfix"></div>
+              </li>
+              <li>
+                <i class="fas fa-envelope" style=" color: #ffffff;"></i>
+                <a href="mailto:info@example.com" style="color: #ffffff;">mail@example.com</a>
+                <div class="clearfix"></div>
+              </li>
+            </ul>
           </div>
           <div class="col-lg-3 col-sm-6 w3l-footer agileinfo_footer_grid my-sm-0 my-4">
-						<h3 class="mb-3">Navigation</h3>
-            <iframe width="100%" height="100%" src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d3899.818905448386!2d-76.9349752993607!3d-12.192722379195619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d-12.1927329!2d-76.9335148!4m3!3m2!1d-12.1927579!2d-76.9335084!5e0!3m2!1ses!2spe!4v1588666121739!5m2!1ses!2spe" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="copy-right-grids py-3">
-			<p class="footer-gd text-center text-white">© 2018 Cappuccino Coffee. All Rights Reserved | Design by
-				<a href="https://w3layouts.com/" target="_blank">W3layouts</a>
-			</p>
-		</div>
-	</footer>
-	<!-- //footer -->
+            <h3 class="mb-3 footer_titulo">Navigation</h3>
+            <iframe width="100%" height="100%"
+              src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d3899.818905448386!2d-76.9349752993607!3d-12.192722379195619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d-12.1927329!2d-76.9335148!4m3!3m2!1d-12.1927579!2d-76.9335084!5e0!3m2!1ses!2spe!4v1588666121739!5m2!1ses!2spe"
+              width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+              tabindex="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copy-right-grids py-3 footer_pie">
+      <p class="footer-gd text-center text-white">© 2020 MentChock. Todos los derechos reservados | Creado por
+        <a href="https://w3layouts.com/" target="_blank" style="color: rgb(158, 147, 149);">figueroa.kevi@gmail.com</a>
+      </p>
+    </div>
+  </footer>
+  <!-- //footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
